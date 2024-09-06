@@ -1,6 +1,10 @@
 <?php
 
-require 'UserValidator.php';
+require_once 'UserValidator.php';
+require 'UserValidatorTest.php';
+
+// Uruchomienie testów
+runTests();
 
 // Przykład użycia
 $emailValidator = new EmailValidator();
